@@ -1,0 +1,144 @@
+header{
+  height:80px;
+  width:100%;
+  background-color:black;
+  margin:0;
+  border:none;
+  position:fixed;
+  top:10px;
+  overflow: auto;
+}
+
+form{
+  display:flex;
+  align-items:center;
+}
+
+button{
+  border:none;
+  background-color:black;
+  color:white;
+  width: 100%;
+  height:80px;
+  font-size:150%;
+  font-family:'Orbitron', sans-serif;
+  font-weight:bold;
+}
+
+main{
+  max-width:44%;
+  display:flex;
+  flex-direction:column;
+  position:absolute;
+  margin-top:80px;
+  
+}
+
+.anakin{
+  font-family:'Tangerine', cursive;
+  color:#222;
+  font-size: 50px;
+  font-weight: bolder;
+position:absolute;
+    top:180px;
+    left: 30px;
+    margin:0;
+  text-decoration:none;
+}
+.anakin span{
+  font-size:80px;
+}
+.head{
+  background-image: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+  background-size: cover;
+    height:400px;
+    margin:0;
+    background-position-x:40%;
+}
+.quotes{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  
+}
+.bquote1, .bquote2, .bquote3{
+  background: #484848;
+  color:white;
+  padding:20px;
+  position: relative;
+  margin-top:40px;
+}
+blockquote{
+  font-size:90px;
+  margin:20px;
+  margin-left:0px;
+  padding:30px;
+  padding-top:100px;
+  padding-bottom:50px;
+  font-family:'Tangerine', cursive;
+  letter-spacing:1px;
+  display:absolute;
+}
+.qmark{
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  font-size:90px;
+  margin:0;
+  padding:0;
+}
+
+aside{
+  display:flex;
+  align-items: flex start;
+  flex-direction:column;
+  justify-content:flex-end;
+  margin-left:48%;
+  line-height:30px; 
+}
+h2 span{
+  font-size:130%;
+}
+
+.two::first-letter {
+  font-size:130%;
+}
+
+h3{
+  font-family:'Amatic SC', cursive;
+  font-size:25px;
+  font-style:italic;
+  margin-top:0px;
+}
+.one{
+  font-family:"Josefin Sans";
+  text-transform:uppercase;
+  color:#222;
+  letter-spacing: 1px;
+  margin-top:110px;
+  margin-bottom:50px;
+  font-size:28px;
+  position:relative;
+}
+
+.bquote2{
+  margin-top:530px;
+}
+.bquote3{
+  margin-top:350px;
+}
+.first{
+  font-family:'Metamorphous', cursive;
+  font-size:20px;
+  margin-top:80px;
+}
+ul{
+  font-family:'Metamorphous', cursive;
+}
+h2{
+ font-family:'Metamorphous', cursive;
+  text-decoration: underline;
+}
+p{
+  font-family:'Metamorphous', cursive;
+}
